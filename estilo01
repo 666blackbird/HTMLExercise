@@ -1,41 +1,30 @@
 .item img {
-  width: 90%;
+  width: 95%;
 }
 
 .row {
   flex-direction: row;
 }
 
-.container {
-  max-width: 80%; 
-  display: flex;
-  padding: 2rem 2rem;
-  margin: 10px auto;
-  border: 5px solid white;
-  background: black;
+.reverse-row {
+  flex-direction: row-reverse;
+}
+
+.item p {
+  text-align: center;
 }
 
 h1 {
-  font-family: Courier New;
   text-align: center;
-  text-decoration: underline;
-  color: white;
 }
 
-p {
-  background-color: black;
+h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  border: 2px solid grey;
+  margin: 2rem;
   padding: 1rem;
-  font-family: Cambria;
-  font-size: 1em;
-  color: white;
-  width: 85%;
-  margin: auto;
-  border: 5px solid white;
-}
-
-body {
-  padding: 2rem;
-  margin: 1rem 1rem auto;
-  background: black;
-  background-image: url("https://ruletheweb.co.uk/letitsnow/t.gif");
 }
